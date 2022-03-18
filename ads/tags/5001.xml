@@ -1,14 +1,14 @@
-document.write(`<div style="position:relative;width:300px;height:250px;">
-<scr` + `ipt async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></scr` + `ipt>
-<div id="gpt-passback_1">
-  <scr` + `ipt>
+document.write(`<div style="position:relative;width:300px;height:250px;">  
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<div id="gpt-passback1">
+  <script>
     window.googletag = window.googletag || {cmd: []};
     googletag.cmd.push(function() {
-    googletag.defineSlot('/211182487,22476178093/www.urlily.com_Display300x250', [300, 250], 'gpt-passback_1').addService(googletag.pubads());
+    googletag.defineSlot('/8068523/oneplaystart.com_display_1', [[336, 280], [300, 250]], 'gpt-passback1').addService(googletag.pubads());
     googletag.enableServices();
-    googletag.display('gpt-passback_1');
+    googletag.display('gpt-passback1');
     });
-  </scr` + `ipt>
+  </script>
 </div>
 <div style="position:absolute;right:0;top:0;width:26px;padding:3px;background:rgba(255,255,255,.95);z-index:2;"><a href="http://agencyorquidea.com"><img src="https://supertruco.com/icon.svg" style="display:block;width:100% !important;height:auto;" /></a></div>
 </div>`)
