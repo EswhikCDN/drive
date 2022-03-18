@@ -1,4 +1,4 @@
-document.write(`<div style="position:relative;width:responsive;height:responsive;">  
+document.write(`<div style="position:relative;width:336px;300pxheight:280px250px;">  
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <div id="gpt-passback1">
   <script>
