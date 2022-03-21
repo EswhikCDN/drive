@@ -1,5 +1,7 @@
-document.write(`<div style="position:relative;width:336px;height:280px;">  
+document.write(`
+
 <center>
+<div style="position:relative;width:336px;height:280px;">
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 <div id="gpt-passback1">
   <script>
@@ -11,9 +13,9 @@ document.write(`<div style="position:relative;width:336px;height:280px;">
     });
   </script>
 </div>
-</center>
 <div style="position:absolute;right:0;top:0;width:30px;padding:0px;background:rgba(255,255,255,.95);z-index:2;"><a href="https://edwardcaruajulca.online/eswhik"><img src="https://eswhik.github.io/ad_push/eswhik.png" style="display:block;width:100% !important;height:auto;" /></a></div>
 </div>
+</center>
 
 <span style="width:336px;display:block;height:14px;margin:auto" class="reportline">
   <span style="text-align:center;font-size: smaller;float:left;line-height:normal;">
@@ -24,5 +26,6 @@ document.write(`<div style="position:relative;width:336px;height:280px;">
   
   <span class="ez-report-ad-button" style="cursor: pointer!important; font-size:12px !important;color: #a5a5a5 ;float:right;text-decoration:none !important;font-family:arial !important;line-height:normal;"><a href="https://edwardcaruajulca.online/eswhik" target="_blank">Reportar Ads</a></span>
 </span>
-
+  
+  
 `)
