@@ -1,0 +1,31 @@
+document.write(`
+
+<center>
+<div style="position:relative;width:336px;height:280px;">
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<div id="gpt-passback2">
+  <script>
+    window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/8068523/oneplaystart.com_display_2', [[336, 280], [300, 250]], 'gpt-passback2').addService(googletag.pubads());
+    googletag.enableServices();
+    googletag.display('gpt-passback2');
+    });
+  </script>
+</div>
+<div style="position:absolute;right:0;top:0;width:30px;padding:0px;background:rgba(255,255,255,.95);z-index:2;"><a href="https://edwardcaruajulca.online/eswhik"><img src="https://eswhik.github.io/ad_push/eswhik.png" style="display:block;width:100% !important;height:auto;" /></a></div>
+</div>
+</center>
+
+<span style="width:336px;display:block;height:14px;margin:auto" class="reportline">
+  <span style="text-align:center;font-size: smaller;float:left;line-height:normal;">
+    <a href="#" target="_blank" rel="noopener noreferrer nofollow" style="cursor:pointer">
+      <img src="https://eswhik.github.io/ad_pub_002/Dark-Eswhik.png" alt="Ezoic" loading="lazy" style="height:12px !important; padding:2px !important; border:0px !important; cursor:pointer !important; width: 58px !important; margin:0 !important; box-sizing: content-box !important;">
+    </a>
+  </span>
+  
+  <span class="ez-report-ad-button" style="cursor: pointer!important; font-size:12px !important;color: #a5a5a5 ;float:right;text-decoration:none !important;font-family:arial !important;line-height:normal;"><a href="https://edwardcaruajulca.online/eswhik" target="_blank">Reportar Ads</a></span>
+</span>
+  
+  
+`)
