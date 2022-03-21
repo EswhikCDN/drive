@@ -1,5 +1,7 @@
 document.write(`
 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <h2><center>¿Qué es Bitcoin?</center></h2>
 
 <p>
