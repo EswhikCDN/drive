@@ -1,0 +1,18 @@
+document.write(`
+
+<!-- Titulo 2 -->
+<br>
+<h2><center>¿A qué llamamos Marketing digital?</center></h2>
+<!-- End Titulo 2 -->
+
+<!-- End Texto 2-->
+<p>
+La definición es muy simple: se llama Marketing Digital a las acciones y estrategias que se desarrollan en los canales y medios digitales. Pueden ser acciones y estrategias netamente publicitarias o comerciales pero siempre llevadas a cabo en el espacio digital.
+</p>
+<br>
+<p>
+Ahora, espera un momento, para entender mejor de qué se trata es necesario pensar en la palabra marketing a solas. El marketing abarca técnicas, estudios y análisis que tienen como objetivo mejorar la comercialización de un producto, que satisface necesidades específicas, en un mercado definido.
+</p>
+<!-- End Texto 2-->
+  
+`)
