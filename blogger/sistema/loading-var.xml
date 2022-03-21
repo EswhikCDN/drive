@@ -1,0 +1,47 @@
+document.write(`
+<style>
+  .progress-bar {
+
+   border: 2px solid #00a6ff;
+
+   border-radius: 12px;
+
+} 
+
+.progress-bar > div {
+
+   color: white;
+
+   background: Black;
+
+   overflow: hidden;
+
+   white-space: nowrap;
+
+   padding: 10px 2.5px;
+
+   border-radius: 10px;
+
+   -webkit-animation: progress-bar 8s;
+
+   -moz-animation: progress-bar 5s;
+
+} 
+
+@-webkit-keyframes progress-bar {
+
+  0% { width: 0; }
+
+} 
+
+@-moz-keyframes progress-bar {
+
+   0% { width: 0; }
+
+}
+</style>
+
+<div class="progress-bar">
+  <div style="width: 100%"><center>Espere unos algunos segundos</center></div>
+</div>
+`)
