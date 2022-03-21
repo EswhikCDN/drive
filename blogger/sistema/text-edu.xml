@@ -1,0 +1,55 @@
+document.write(`
+
+<h2><center>¿Qué es Bitcoin?</center></h2>
+
+<p>
+Bitcoin es una moneda digital descentralizada creada en enero de 2009. Sigue las ideas expuestas en un libro blanco del misterioso y seudónimo Satoshi Nakamoto. 1 2 La identidad de la persona o personas que crearon la tecnología sigue siendo un misterio. Bitcoin ofrece la promesa de tarifas de transacción más bajas que los mecanismos tradicionales de pago en línea y, a diferencia de las monedas emitidas por el gobierno, es operado por una autoridad descentralizada.
+</p>
+<br>
+<img src="https://assets.iprofesional.com/cdn-cgi/image/w=880,f=webp/https://assets.iprofesional.com/assets/jpeg/2021/09/523860.jpeg">
+<br>
+<br>
+<p>
+Bitcoin se conoce como un tipo de criptomoneda porque utiliza criptografía para mantener su seguridad. No hay bitcoins físicos, solo saldos guardados en un libro público al que todos tienen acceso transparente (aunque cada registro está encriptado).
+</p>
+<br>
+<p>
+Todas las transacciones de Bitcoin son verificadas por una gran cantidad de poder de cómputo a través de un proceso conocido como "minería".
+Bitcoin no es emitido ni respaldado por ningún banco o gobierno, ni un bitcoin individual es valioso como mercancía. 
+</p>
+<br>
+<p>
+A pesar de que no es moneda de curso legal en la mayor parte del mundo, Bitcoin es muy popular y ha desencadenado el lanzamiento de cientos de otras criptomonedas, denominadas colectivamente altcoins. Bitcoin se abrevia comúnmente como BTC cuando se negocia.
+</p>
+<br>
+
+<h3><center>CONCLUSIONES CLAVE</center></h3>
+
+<ul>
+<li>
+<p>
+Lanzado en 2009, Bitcoin es la criptomoneda más grande del mundo por capitalización de mercado.
+</p>
+</li>
+<br>
+<li>
+<p>
+A diferencia de la moneda fiduciaria, Bitcoin se crea, distribuye, comercializa y almacena con el uso de un sistema de contabilidad descentralizado, conocido como cadena de bloques.
+</p>
+</li>
+<br>
+<li>
+<p>
+La historia de Bitcoin como reserva de valor ha sido turbulenta; ha pasado por varios ciclos de auge y caída durante su vida útil relativamente corta.
+</p>
+</li>
+<br>
+<li>
+<p>
+Como la primera moneda virtual en alcanzar una popularidad y un éxito generalizados, Bitcoin ha inspirado una gran cantidad de otras criptomonedas a su paso.
+</p>
+</li>
+<br>
+</ul>
+
+`)
