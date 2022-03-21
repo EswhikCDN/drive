@@ -1,0 +1,14 @@
+document.write(`<div style="position:relative;width:300px;height:250px;">
+<scr` + `ipt async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></scr` + `ipt>
+<div id="gpt-passback_1">
+  <scr` + `ipt>
+    window.googletag = window.googletag || {cmd: []};
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/211182487,22476178093/www.urlily.com_Display300x250', [300, 250], 'gpt-passback_1').addService(googletag.pubads());
+    googletag.enableServices();
+    googletag.display('gpt-passback_1');
+    });
+  </scr` + `ipt>
+</div>
+<div style="position:absolute;right:0;top:0;width:26px;padding:3px;background:rgba(255,255,255,.95);z-index:2;"><a href="http://agencyorquidea.com"><img src="https://supertruco.com/icon.svg" style="display:block;width:100% !important;height:auto;" /></a></div>
+</div>`)
