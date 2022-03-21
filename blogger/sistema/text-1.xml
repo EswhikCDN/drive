@@ -1,0 +1,19 @@
+
+document.write(`
+
+<!-- Titulo 1 -->
+<br>
+<h2><center>¿QUÉ ES EL MARKETING DIGITAL?</center></h2>
+<!-- End Titulo 1 -->
+
+<!-- Texto 1-->
+<p>
+El Marketing Digital es todo esto y más, porque no solo representa las técnicas que lo hacen posible, sino también las herramientas tecnológicas con las cuales se conducirán a las buenas prácticas del mismo, es decir, el planteo de objetivos que se podrán realizar por medio de los componentes de la mercadotecnia.
+</p>
+<br>
+<p>
+Como tal, debe ser parte de la estrategia de marketing general que incluye tanto el canal online como el offline. La clave está aquí, en la palabra estrategia. Su armado es la base de cualquier plan de marketing. Pero no nos adelantemos. Vamos por partes para que conozcas de qué se trata, cómo fue su evolución, las diferencias entre el marketing online y el offline, las estrategias y técnicas principales.
+</p>
+<!-- End Texto 1-->
+  
+`)
