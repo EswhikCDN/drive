@@ -143,7 +143,7 @@ $(window.parent.document).find('#ad-interstitial').css("display", "none");
 $(window.parent.document).find('#ad-mobile-interstitial').css("display", "none");
 
 
-}, 15000);
+}, 10000);
 
 function closead() {
     document.getElementById("outercontainer").style.display = "none";
@@ -184,7 +184,7 @@ else{
 (function(){
 var message = "%d seconds before download link appears";
 // seconds before download link becomes visible
-var count = 14;
+var count = 9;
 var countdown_element = document.getElementById("countdown");
 var download_link = document.getElementById("download_link");
 var timer = setInterval(function(){
