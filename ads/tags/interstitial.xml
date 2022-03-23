@@ -1,0 +1,207 @@
+document.write(`
+<!-- 
+<div id="outercontainer">
+  <div id="closebutton" onclick="closead()" >
+    <div class="desc">
+      <button class="btn">Close<span id="countdown"></span></button>
+    </div>
+  </div>
+  <div id="innercontainer">
+  </div>
+</div>
+-->
+<style>
+interstitial-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: block !important;;
+}
+#ad-interstitial, #ad-mobile-interstitial {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    color: #cecece;
+    display: block !important;
+}
+div#innercontainer {
+z-index:9999999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow: overlay;
+background: rgba(0,0,0,);
+}
+div#outercontainer {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999998;
+    overflow: overlay;
+}
+div#closebutton {
+    left: auto;
+    top: 0%;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    font-family:Georgia;
+    font-style:italic;
+    text-decoration:underline;
+   font-size:initial;
+   text-align:center;
+   width:100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat', sans-serif;
+}
+
+.btn {
+  width: 200px;
+  height: 60px;
+  background: none;
+  border: 4px solid;
+  color: #3498db;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+}
+
+.btn::before,
+.btn::after {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 4px;
+  background: #353b48;
+  transform: skewX(50deg);
+  transition: 0.4s linear;
+}
+
+.btn::before {
+  top: -4px;
+  left: 10%;
+}
+
+.btn::after {
+  bottom: -4px;
+  right: 10%;
+}
+
+.btn:hover::before {
+  left: 80%;
+}
+
+.btn:hover::after {
+  right: 80%;
+}
+</style>
+
+
+<script type="text/javascript">
+$(document).ready( function() {
+$(window.parent.document).find('#interstitial-container').css("display", "block");
+$(window.parent.document).find('#ad-interstitial').css("display", "block");
+$(window.parent.document).find('#ad-mobile-interstitial').css("display", "block");
+
+});
+
+$('#closebutton').click(function() {
+    $(window.parent.document).find('#interstitial-container').css("display", "none");
+$(window.parent.document).find('#ad-interstitial').css("display", "none");
+$(window.parent.document).find('#ad-mobile-interstitial').css("display", "none");
+
+
+
+});
+</script>
+
+<script>
+
+setTimeout(function(){ 
+
+closead();
+  $(window.parent.document).find('#interstitial-container').css("display", "none");
+$(window.parent.document).find('#ad-interstitial').css("display", "none");
+$(window.parent.document).find('#ad-mobile-interstitial').css("display", "none");
+
+
+}, 15000);
+
+function closead() {
+    document.getElementById("outercontainer").style.display = "none";
+
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.height = "0%";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.width = "0%";
+
+
+
+}
+
+
+
+window.onload = loadiframe();
+function loadiframe(){
+iframebuster();
+}
+
+function iframebuster(){
+if (window.frameElement) {
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.zIndex = "9999999";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.position = "fixed";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.top = "0";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.left = "0";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.height = "100%";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.width = "100%";
+window.parent.document.getElementById(parent.window.frames[window.name].name).style.overflow = "overlay";
+}
+else{
+}
+}
+</script>
+
+
+
+
+<script type="application/javascript">
+(function(){
+var message = "%d seconds before download link appears";
+// seconds before download link becomes visible
+var count = 14;
+var countdown_element = document.getElementById("countdown");
+var download_link = document.getElementById("download_link");
+var timer = setInterval(function(){
+// if countdown equals 0, the next condition will evaluate to false and the else-construct will be executed
+if (count) {
+// display text
+countdown_element.innerHTML = " %d".replace("%d", count);
+// decrease counter
+count--;
+} else {
+// stop timer
+clearInterval(timer);
+// hide countdown
+countdown_element.style.display = "none";
+// show download link
+download_link.style.display = "";
+}
+}, 1000);
+})();
+</script>`)
