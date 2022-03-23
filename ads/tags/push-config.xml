@@ -1,0 +1,7 @@
+</div>
+	<div style="position: absolute;right:0;bottom:0;width:20px;padding:3px;background:rgba(255,255,255,.95);z-index:2">
+		<a href="https://edwardcaruajulca.online/eswhik" target="_blank" rel="noreferrer"><img src="https://eswhik.github.io/ad_push/eswhik.png" style="display: block; width: 100% !important; height: auto" /></a>
+	</div>			
+	<span style="display:block;background:#fff;padding:3px 5px;margin:0;position:absolute;top:0;right:0;cursor:pointer;color:#666;font:bold 13px/10px Arial,Helvetica,sans-serif;" onclick="document.getElementById('eswhik-slideup').remove();">x</span>
+	</div>
+</div>
