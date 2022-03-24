@@ -1,7 +1,7 @@
 document.write(`<style type="text/css">@-webkit-keyframes orquidea-slideup{0%{visibility:visible;-webkit-transform:translateX(150%);transform:translateX(150%)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes orquidea-slideup{0%{visibility:visible;-webkit-transform:translateX(150%);transform:translateX(150%)}100%{-webkit-transform:translateX(0);transform:translateX(0)}}</style>
-<div id="orquidea-slideup" style="box-sizing:border-box;display:block;position:fixed;z-index:9999999999999;width:310px;height:110px;padding:5px;right:15px;top:15px;border-radius:10px;background-color:#fff;box-shadow:0 0 15px rgba(0,0,0,.3);-webkit-transition:375ms;-moz-transition:375ms;-o-transition:375ms;transition:375ms;-webkit-animation-name:orquidea-slideup;animation-name:orquidea-slideup;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-delay:2s;animation-delay:2s;">
+<div id="orquidea-slideup" style="box-sizing:border-box;display:block;position:fixed;z-index:9999999999999;width:responsive;height:responsive;padding:5px;right:15px;top:15px;border-radius:10px;background-color:#fff;box-shadow:0 0 15px rgba(0,0,0,.3);-webkit-transition:375ms;-moz-transition:375ms;-o-transition:375ms;transition:375ms;-webkit-animation-name:orquidea-slideup;animation-name:orquidea-slideup;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-delay:2s;animation-delay:2s;">
 	<div style="display:block;position:relative;">
-		<div style="position:relative;width:300px;height:100px;margin:auto;">
+		<div style="position:relative;width:responsive;height:responsive;margin:auto;">
 
 <!-- INIT AD CODE -->
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><div id="Ad.Plus-320x100-1"><script>
