@@ -31,7 +31,7 @@ left: 13px;
 //<![CDATA[
 var persistclose=0 //set to 0 or 1. 1 means once the bar is manually closed, it will remain closed for browser session
 var startX = 0 //set x offset of bar in pixels
-var startY = 25 //set y offset of bar in pixels
+var startY = 250 //set y offset of bar in pixels
 var verticalpos="fromtop" //enter "fromtop" or "frombottom"
 
 function iecompattest(){
