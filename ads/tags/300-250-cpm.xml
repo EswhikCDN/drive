@@ -102,4 +102,17 @@ window.onload=staticbar
 //]]>
 </script>
 
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  Swal.fire({
+  position: 'top-end',
+  icon: 'info',
+  title: 'Nueva Actualización',
+  text: '**** Eswhik Script "CPM" ****',
+  footer: '<a href="https://cdn.eswhik.com/scripts/" style="color:#0084ff";><h2>Actualizar ahora</h2></a>',
+  showConfirmButton: false,
+  timer: 3500
+})
+</script>
+
 `)
