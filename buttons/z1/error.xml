@@ -1,6 +1,10 @@
 document.write(`
 
-https://github.com/drive/buttons/z1/config
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Error Server</title>
+<meta http-equiv="refresh" content="0; URL=https://github.com/drive/buttons/z1/config">
+<link rel="canonical" href="https://github.com/drive/buttons/z1/config">
 
 `)
 
