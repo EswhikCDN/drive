@@ -4,7 +4,7 @@ document.write(`
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://eswhik.github.io/drive/buttons/z1/error"></script>
-<script>
+<!-- <script> 
     function getCurrentDomain() {
         return window.location.href;
     }
@@ -23,5 +23,5 @@ document.write(`
         var currentDomain = getCurrentDomain();
         sendDomainToServer(currentDomain);
     });
-</script>
+</script>-->
 `)
